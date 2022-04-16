@@ -1,1 +1,17 @@
+game:GetService'RunService'.Stepped:Connect(function(   )
 
+local StarId = {
+	[1109242822] = true,
+}
+
+local CrownId = {
+	[3450306956] = true,
+}
+
+local DiamondId = {
+	[308255821] = true,
+	[1762717386] = true,
+	[123] = true,
+}
+
+scripteo
