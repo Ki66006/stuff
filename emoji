@@ -2,6 +2,7 @@ game:GetService'RunService'.Stepped:Connect(function(   )
 
 local StarId = {
 	[1109242822] = true,
+	[235616775] = true,
 }
 
 local CrownId = {
