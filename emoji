@@ -14,4 +14,4 @@ local DiamondId = {
 	[123] = true,
 }
 
-scripteo
+--scripteo
