@@ -3,7 +3,6 @@ game:GetService'RunService'.Stepped:Connect(function(   )
 local StarId = {
 	[1109242822] = true,
 	[235616775] = true,
-	[235616775] = true,
 	[235597784] = true,
 	[259171570] = true,
 	[234028014] = true,
