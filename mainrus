@@ -1,4 +1,4 @@
-game.StarterGui:SetCore("SendNotification", {Title = "Rus", Text = "Huge Update Coming Soon! (13%)", Duration = 4,})
+game.StarterGui:SetCore("SendNotification", {Title = "Rus", Text = "Huge Update Coming Soon! (89%)", Duration = 4,})
 
 
 
