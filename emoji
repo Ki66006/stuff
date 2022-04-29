@@ -2,21 +2,11 @@ game:GetService'RunService'.Stepped:Connect(function(   )
 
 local StarId = {
 	[1109242822] = true,
-	[235616775] = true,
-	[235597784] = true,
-	[259171570] = true,
-	[234028014] = true,
-	[237059776] = true,
 }
 
-local CrownId = {
-	[3478046069] = true,
-}
+local CrownId = {}
 
-local DiamondId = {
-	[308255821] = true,
-	[1762717386] = true,
-}
+local DiamondId = {}
 
 function premium()
 	for _,v in pairs(game:GetService('Players'):GetChildren()) do
@@ -36,12 +26,6 @@ function premium()
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]'..v.DisplayName)
-				end
-			end
-		elseif v.Character then
-			if v.Character.Parent.Name == 'Players' then
-				if not v.Character.UpperTorso:FindFirstChild('BodyBackAttachment') then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]'..v.DisplayName)
 				end
 			end
 		end
